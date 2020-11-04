@@ -1,6 +1,6 @@
 {
   "name": "react-native-form-keyboard-dismiss",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple way to dismiss keyboard when touching outside form inputs",
   "main": "index.js",
   "scripts": {
