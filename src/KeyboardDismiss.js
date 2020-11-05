@@ -4,9 +4,7 @@ import { Platform, TouchableWithoutFeedback, Keyboard } from 'react-native';
 const DismissKeyboard = ({ children }) => (
   <TouchableWithoutFeedback
     onPress={() => {
-      if (Platform.OS === 'ios') {
-        Keyboard.dismiss();
-      }
+      Keyboard.dismiss();
     }}>
     {children}
   </TouchableWithoutFeedback>
